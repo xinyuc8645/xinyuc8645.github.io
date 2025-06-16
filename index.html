@@ -2,26 +2,29 @@
 <html lang="en">
 
 <head>
-    <title class="owner-name">#</title>
     <meta charset="utf-8">
+    <title>#</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/themes/prism.css" rel="stylesheet" />
     <link rel="stylesheet" href="style.css" type="text/css">
+
+    <!-- JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-
 </head>
 
 <body>
 
     <!-- Navbar -->
-
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <a class="navbar-brand owner-name" href="#"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
 
@@ -40,76 +43,65 @@
         </div>
     </nav>
 
-    <!-- First Container -->
-    <div class="container-fluid bg-1 text-center" id="projects">
+    <!-- Intro Section -->
+    <div class="container-fluid bg-1 text-center py-5" id="project-intro">
         <h3 class="margin">Adventure Project</h3>
         <img src="img/logo.png" class="img-fluid" alt="Logo" id="logo">
     </div>
 
-    <!-- Second Container -->
-    <div class="container-fluid bg-2 text-center" id="projects">
+    <!-- Projects Section -->
+    <div class="container-fluid bg-2 text-center py-5" id="projects">
         <h3 class="margin">Projects</h3>
-
         <p>Coming Soon!</p>
-        <div class="container">
-            <div class="row">
-
-
-                <div class="col-sm-4">
-                    <div class="card">
-                        <div class="card-body">
-                            <h5 class="card-title">Adventure</h5>
 
         <div class="container">
             <div class="row">
 
-
-                <div class="col-sm-4">
-                    <div class="card">
+                <div class="col-sm-4 mb-4">
+                    <div class="card h-100">
                         <div class="card-body">
                             <h5 class="card-title">Freedom Project</h5>
-
                             <h6 class="card-subtitle mb-2 text-muted">10th Grade</h6>
-                            <p class="card-text">An SEP10 Freedom Project, that explores the topic of animation,that consists of self made website, self learned tool; Aframe that relates to the topic of animation. An also an general idea of the SEP10 Freedom Project</p>
+                            <p class="card-text">
+                                An SEP10 Freedom Project that explores the topic of animation. It consists of a self-made website, a self-learned tool (A-Frame), and a general exploration of animation.
+                            </p>
                             <a href="projects/sep10-fp.html" class="card-link">Learn more about the SEP10 Freedom Project</a>
                         </div>
                     </div>
                 </div>
 
-
-
-
-
-                <div class="col-sm-4">
-                    <div class="card">
+                <div class="col-sm-4 mb-4">
+                    <div class="card h-100">
                         <div class="card-body">
                             <h5 class="card-title">Movie Webpage</h5>
                             <h6 class="card-subtitle mb-2 text-muted">10th Grade</h6>
-                            <p class="card-text">About a movie project, that is filled with mysterious and horrors.</p>
-                            <a href="projects/movie-webpage.html"class="card-link">Information about the project</a>
+                            <p class="card-text">
+                                A movie project webpage filled with mystery and horror themes.
+                            </p>
+                            <a href="projects/movie-webpage.html" class="card-link">Information about the project</a>
                         </div>
                     </div>
                 </div>
 
-                 <div class="col-sm-4">
-                    <div class="card">
+                <div class="col-sm-4 mb-4">
+                    <div class="card h-100">
                         <div class="card-body">
                             <h5 class="card-title">Adventure Project</h5>
                             <h6 class="card-subtitle mb-2 text-muted">10th Grade</h6>
-                            <p class="card-text">An adventure project that is made using elements within IDE.</p>
-                            <a href="projects/adventure-project.html"class="card-link">More about the amazing adventure project!</a>
+                            <p class="card-text">
+                                An adventure project created using IDE tools and components.
+                            </p>
+                            <a href="projects/adventure-project.html" class="card-link">More about the amazing adventure project!</a>
                         </div>
                     </div>
                 </div>
 
-
             </div>
         </div>
-        </a>
     </div>
 
-    <!-- Third Container (Grid) -->
-    <div class="container-fluid bg-3 text-center">
+    <!-- About Section -->
+    <div class="container-fluid bg-3 text-center py-5">
         <h3 class="margin">About Me</h3><br>
         <div class="row">
             <div class="col-sm-4">
@@ -125,11 +117,14 @@
     </div>
 
     <!-- Footer -->
-    <footer class="container-fluid bg-4 text-center">
-        <a href="#" target="_blank" id="fork"><img src="img/fork.png"></a><br>
-        <a href="https://hstatsep.github.io" target="_blank"><img src="https://hstatsep.github.io/img/hstatsep-logo-small.png" id="sep"></a>
+    <footer class="container-fluid bg-4 text-center py-4">
+        <a href="#" target="_blank" id="fork"><img src="img/fork.png" alt="Fork Icon"></a><br>
+        <a href="https://hstatsep.github.io" target="_blank">
+            <img src="https://hstatsep.github.io/img/hstatsep-logo-small.png" id="sep" alt="HSTAT SEP Logo">
+        </a>
     </footer>
 
+    <!-- Prism JS -->
     <script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-core.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/plugins/autoloader/prism-autoloader.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/plugins/normalize-whitespace/prism-normalize-whitespace.min.js"></script>
